@@ -7,12 +7,11 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .top{
     text-align: center;
-    font-size: 25px;
     background-size: cover;
     background-color: #003594;
     color: #ffb81c;
@@ -28,11 +27,11 @@ body{
     color: #ffb81c;
     border-radius: 15px;
     margin: 20px;
-    font-size: 25px;
     padding: 1px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: Helvetica;
+    font-size: 1.8rem;
 }
 
 input{

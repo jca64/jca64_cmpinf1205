@@ -27,25 +27,26 @@ body {
 
 </div>
 <div class="user-info">
-    <form id="form" action="submit.php" method="POST">
+    <form id="form" action="submit.php" method="post">
         <div class="username">
             <label for="username">Email: </label>
-            <input value="<?php echo ($username) ?>">
+            <input name="username" value="<?php echo ($username) ?>">
         </div>
 
         <div class="age-select">
             <label for="age-select">Select Age: </label>
-            <select>
-                <option value="0">17 or younger</option>
-                <option value="1">18-21</option>
-                <option value="2">22 or older</option>
-                <option value="-1">Prefer not to say</option>
+            <select name="age-select">
+                <option value="0">Freshman</option>
+                <option value="1">Sophmore</option>
+                <option value="2">Junior</option>
+                <option value="3">Senior</option>
+                <option value="4">Other</option>
             </select>
         </div>
 
         <div class="gender-select">
             <label for="gender-select">Select Gender: </label>
-            <select>
+            <select name="gender-select">
                 <option value="0">Male</option>
                 <option value="1">Female</option>
                 <option value="2">Non-Binary</option>
@@ -56,7 +57,7 @@ body {
 
         <div class="ethnicity-select">
             <label for="ethnicity-select">Select Ethnicity: </label>
-            <select>
+            <select name="ethnicity-select">
                 <option value="0">White</option>
                 <option value="1">Black or African-American</option>
                 <option value="2">American Indian or Alaskan Native</option>
