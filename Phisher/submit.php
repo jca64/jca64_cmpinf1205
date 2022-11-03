@@ -41,4 +41,13 @@ $conn->close();
 <p>
     Thanks for participating!
 </p>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLV1Q3V4QM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FLV1Q3V4QM');
+</script>
 </html>

@@ -3,6 +3,7 @@ $username = $_POST['j_username'];
 ?>
 
 <!DOCTYPE html>
+<head>
 <link rel="stylesheet" href="form.css">
 
 <style>
@@ -10,7 +11,9 @@ body {
   background-image: url('images/passport-bckgnd-shield-watermark-blue-repeat.png');
 }
 </style>
+</head>
 
+<body>
 <div class="top">
     <p>Something Phishy is Going on Here: A CMPINF 1205 Project</p>
 </div>
@@ -77,5 +80,17 @@ body {
         </div>
     </form>
 </div>
+</body>
+<footer>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLV1Q3V4QM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FLV1Q3V4QM');
+</script>
+</footer>
 
 </html>
