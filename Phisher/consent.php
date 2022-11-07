@@ -22,11 +22,14 @@ body {
     <p>Hello <?php echo ($username) ?>, and thank you for participating in my experiment. The login page that you just saw
         was fake! Any information that you put into the previous boxes is now, in theory, in my hands. Luckily for you, I am
         only a Pitt student testing to see how vulnerable other Pitt students are to phishing links. However, had you submitted your
-        information to somebody with malicious intent, with a few more simple tricks they could easily be logged into your Pitt accounts.
+        information to somebody with malicious intent, with a few more simple tricks they could easily be logged into your Pitt accounts. 
+        With a coordinated interception of your duo push, hackers could take control of virtually any information you have linked to your 
+        University account. While the Univeristy does have a disclaimer message below the login box, users can still fall victim to malicious 
+        attacks just like this one. This is why it is important to take steps that will assure safety online and protect your data.
         With your permission I would like to use some of your information to complete a study of students like you that have also fallen
         victim to my link. If you could please fill out the following information and give consent to me using it I would greatly appreciate
-        it! Also, you should be more careful in the future to prevent things like this from happening! If you would like more information 
-        please email me at jca64@pitt.edu and I will try to get back to you ASAP!</p>
+        it! Also, you should be more careful in the future to prevent things like this from happening! If you would like more information regarding 
+        this study, please email me at jca64@pitt.edu and I will try to get back to you as soon as possible!</p>
 
 </div>
 <div class="user-info">
